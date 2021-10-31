@@ -1,0 +1,113 @@
+/* @font-face {
+  font-family: lovely-coffee;
+  src: url(./css/fonts/LovelyCoffee-jEVeO.ttf);
+} */
+
+:root {
+  --main-red-color: brown;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  min-height: 100vh;
+  padding-top: 1vh;
+}
+
+h1 {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+}
+
+h2 {
+  font-size: 1.4rem;
+  padding: 0.5rem 0;
+}
+
+h3 {
+  padding: 1rem 0;
+}
+
+.rating span {
+  margin: 0.1rem;
+}
+#__next {
+  padding: 20px;
+}
+.image-item {
+  padding: 20px 0 20px 20px;
+}
+
+.page-item.active .page-link {
+  z-index: 3;
+  color: #fff;
+  background-color: var(--main-red-color);
+  border-color: var(--main-red-color);
+  border-radius: 5px;
+}
+
+.page-title {
+  font-family: lovely-coffee;
+  font-size: 2rem;
+}
+
+.trash {
+  background-color: var(--main-red-color);
+  border-radius: 5px;
+  width: 40px;
+}
+
+.edit {
+  border-radius: 5px;
+  width: 40px;
+}
+
+.disclaimer {
+  color: var(--main-red-color);
+}
+
+.fade-in {
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 1s;
+}
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.slide-in {
+  position: relative;
+  left: -550px;
+  width: 500px;
+  height: 70px;
+
+  -webkit-animation: slide 0.5s forwards;
+  -webkit-animation-delay: 0.5s;
+  animation: slide 0.5s forwards;
+  animation-delay: 0.5s;
+  overflow: hidden;
+}
+
+@-webkit-keyframes slide {
+  100% {
+    left: 0;
+  }
+}
+
+@keyframes slide {
+  100% {
+    left: 0;
+  }
+}

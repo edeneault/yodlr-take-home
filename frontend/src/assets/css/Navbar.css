@@ -1,0 +1,40 @@
+/* @font-face {
+  font-family: tesla;
+  src: url(./fonts/TESLA.ttf);
+}
+
+@font-face {
+  font-family: lovely-coffee;
+  src: url(./fonts/LovelyCoffee-jEVeO.ttf);
+} */
+
+.brand-text {
+  /* font-family: lovely-coffee; */
+  font-size: 2rem;
+  color: white;
+}
+
+.social {
+  background-color: rgb(0, 0, 0);
+}
+
+.search {
+  background: rgba(147, 147, 147, 0.283);
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  z-index: 1001;
+}
+
+.bg-custom {
+  background: rgb(255, 255, 255);
+}
